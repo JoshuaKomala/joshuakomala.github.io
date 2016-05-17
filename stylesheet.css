@@ -1,0 +1,98 @@
+/* Basic background image styling. */
+.background-image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Styles for the alternating / transition effect. */
+.toggle-image {
+ 	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+ 	height: 800px;
+	transition: opacity 1s ease-in-out;
+}
+
+/* Styles for the specific images. */
+.first-image {
+	background-image: url("images/CnH1.png");	
+	z-index: -8;
+	opacity: 0;
+}
+
+.second-image {
+	background-image: url("images/hCnH2.png");
+	z-index: -7;
+	opacity: 0;
+}
+
+.third-image {
+	background-image: url("images/hCnH3.png");
+	z-index: -6;
+	opacity: 0;
+}
+
+.fourth-image {
+	background-image: url("images/hCnH4.png");
+	z-index: -5;
+	opacity: 0;
+}
+
+.fifth-image {
+	background-image: url("images/hCnH5.png");	
+	z-index: -4;
+	opacity: 0;
+}
+
+.sixth-image {
+	background-image: url("images/hCnH6.png");
+	z-index: -3;
+	opacity: 0;
+}
+
+.seventh-image {
+	background-image: url("images/hCnH7.png");
+	z-index: -2;
+	opacity: 0;
+}
+
+.eighth-image {
+	background-image: url("images/hCnH8.png");
+	z-index: -1;
+	opacity: 0;
+}
+
+
+.first-image.show {
+	opacity: 1;
+}
+
+.second-image.show {
+	opacity: 1;
+}
+
+.third-image.show {
+	opacity: 1;
+}
+
+.fourth-image.show {
+	opacity: 1;
+}
+
+.fifth-image.show {
+	opacity: 1;
+}
+
+.sixth-image.show {
+	opacity: 1;
+}
+.seventh-image.show {
+	opacity: 1;
+}
+
+.eighth-image.show {
+	opacity: 1;
+}
+
