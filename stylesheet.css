@@ -23,43 +23,43 @@
 }
 
 .second-image {
-	background-image: url("images/hCnH2.png");
+	background-image: url("images/CnH2.png");
 	z-index: -7;
 	opacity: 0;
 }
 
 .third-image {
-	background-image: url("images/hCnH3.png");
+	background-image: url("images/CnH3.png");
 	z-index: -6;
 	opacity: 0;
 }
 
 .fourth-image {
-	background-image: url("images/hCnH4.png");
+	background-image: url("images/CnH4.png");
 	z-index: -5;
 	opacity: 0;
 }
 
 .fifth-image {
-	background-image: url("images/hCnH5.png");	
+	background-image: url("images/CnH5.png");	
 	z-index: -4;
 	opacity: 0;
 }
 
 .sixth-image {
-	background-image: url("images/hCnH6.png");
+	background-image: url("images/CnH6.png");
 	z-index: -3;
 	opacity: 0;
 }
 
 .seventh-image {
-	background-image: url("images/hCnH7.png");
+	background-image: url("images/CnH7.png");
 	z-index: -2;
 	opacity: 0;
 }
 
 .eighth-image {
-	background-image: url("images/hCnH8.png");
+	background-image: url("images/CnH8.png");
 	z-index: -1;
 	opacity: 0;
 }
