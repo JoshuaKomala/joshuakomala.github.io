@@ -5,7 +5,7 @@ function cycleBackgrounds() {
 
 	setInterval(function () {
 		// Get the next index.  If at end, restart to the beginning.
-		index = index + 1 < $imageEls.length ? index + 1 : 0;
+		index = index + 1 < $imageEls.length ? index + 1 : index;
 		// Show the next image.
 		$imageEls.eq(index).addClass('show');
 		// Hide the previous image.
