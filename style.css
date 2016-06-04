@@ -76,7 +76,7 @@ a:visited{
 	color:black;
 }
 a:active{
-	text-decoration:underline;
+	border-bottom: 2px solid darkblue;
 }
 
 a:hover{
@@ -87,4 +87,9 @@ a:hover{
 .comingsoon{
 
 	background-color:#ADD8E6;
+}
+
+.currentLink{
+
+	border-bottom: 2px solid black;
 }
