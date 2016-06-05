@@ -49,23 +49,17 @@ body{
 	font-size:1.2em;
 	font-family:fantasy;
 	padding: 0 30px 0 30px;
-	top:-45px;	
+	top:-25px;	
 
 }
 #navbar li:nth-child(3){
-	top:-20px;
+	top:-5px;
 	
 }
-#navbar ul{
-	padding-left:0px;
-	position:absolute;
-	left:50%;
-	transform: translateX(-50%);
-	z-index:99;
-
-}
 #navbar {
+	padding-left:0px;
 	position:fixed;
+	text-align:center;
 	background-color:darkcyan;
 	width:100%;
 	height:50px;
