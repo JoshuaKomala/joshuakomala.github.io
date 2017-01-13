@@ -1,0 +1,38 @@
+html,body {
+	padding:0px;
+	margin:0px;
+}
+
+#intro{
+	width:100%;
+	height:100vh;
+}
+
+/****************PANELS****************/
+
+.panel-head{
+	padding-top:15vh;
+	font-family: Muli;
+	font-weight:bold;
+	color:white;
+	font-size:4em;
+	text-align:center;
+}
+.panel-background{
+	position:absolute;
+	background-color:black;
+	width:auto;
+	min-width:100%;
+	height:100vh;
+	z-index:-1;
+}
+.panel-background-img{
+	position:absolute;
+	width:100%;
+	height:100vh;
+	opacity:0.3;
+	z-index:-1;
+}
+.panel-body{
+	z-index:;
+}

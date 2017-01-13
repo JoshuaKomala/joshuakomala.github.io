@@ -1,28 +1,59 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Julian Joshua Komala</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="image/png" href="images/Logo.png">
-  </head>
-<body>
-	<div id="navbar">
+	<head>
+		<title>Julian Joshua Komala</title>
+		<link rel="stylesheet" type="text/css" href="newstyle.css">
+		<link rel="stylesheet" type="text/css"
+		      href="https://fonts.googleapis.com/css?family=Muli">
+		<link rel="icon" type="image/png" href="images/Logo.png">
+	</head>
+	<body>
+		<div id="intro">
+			<div class="container">
+				<div class="intro-header">Julian Joshua Komala</div>
+				<div class="intro-body"> Developer | Programmer | Gamer </div>
+				<div class="intro-body"> B.S. Computer Science, UCSD '18 </div>
+				<button id="resume" onclick="window.open('assets/Resume.pdf')"> View Resume</button>
+			</div>
+			<div id="icons">
+				<img id="fb" src="images/facebook.png" />
+				<img id="insta" src="images/instagram.png" />
+				<img id="git" src="images/github.png" />
+				<img id="linkedin" src="images/linkedin.png" />
 
-		<li><a href="http://joshuakomala.github.io/edu">Education</a></li>
-		<li><a href="assets/Resume.pdf" target="_blank">Resume</a></li>
-		<li><a id="noUnderline" href="http://joshuakomala.github.io"><img src="images/Logo.png" /></a></li>
-		<li><a href="http://joshuakomala.github.io/projects">Projects</a></li>
-		<li><a href="http://joshuakomala.github.io/contact">Contact</a></li>
+			</div>
 
-	</div>
-	<div id="intro">
-		<h1>Julian Joshua Komala</h1>
-		<img id="mypic" src="images/me.png" />
-		<p id="photocred"><em>PC:Kedar Pujara</em></p>
-	</div>
-	<div id="bio">
-		<h1>Biography</h1>
-		<p> Hello. My name is Joshua Komala </p>
-	</div>
-</body>
+			
+		</div>
+		<div id="body">
+			<div id="work">
+				<div class="panel">
+					<div class="panel-header">Work Experience</div>
+					<div class="panel-body">
+						<img id="jpl" src="images/jpl.png" />
+						<div class="panel-info"> It was honestly surreal working at the Jet Propulsion Laboratory the Summer of 2016. I was free to explore the campus as I pleased, I learned more than I could have imagined, and made many friends I hope to keep in touch with for many years to come.</div>
+					</div>
+				</div>
+				<div class="panel">
+					<div class="panel-header">Projects</div>
+					<div class="panel-body">
+						<img id="foodforthought" src="images/foodforthought.png" />
+						<div class="panel-info"> Food 4 Thought is an application a couple of friends of mine and I made during the school year. We made this app to help all UCSD students with the struggle that is finding an affordable and tasty place to eat on campus.  </div>
+					</div>
+				</div>
+				<div id="education">
+					<div class="panel-header">Education</div>
+					<div id="geiselbg">
+						<img id="geisel" src="images/geisel.png" />
+					</div>
+				</div>
+			</div>	
+			<div id="footer">
+				<div>&copy; Julian Joshua Komala | 2016 | Custom Built. </div>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.1.1.js" ></script>
+		<script src="newscript.js"></script>
+	</body>
 </html>
