@@ -27,6 +27,15 @@ html,body {
 .container{
 	position: absolute;
 	width: 100%;
+
+}
+.right-align{
+	float:right;
+	margin-right:20px;
+}
+.center-align{
+	margin:auto;
+	text-align:center;
 }
 
 
@@ -55,7 +64,7 @@ html,body {
 .intro-body:nth-child(3){
 	font-size:4.75vw;
 }
-#resume{
+.raised-button{
 	background-color: #246331;
 	color: #fff;
 	font-size:4.5vw;
@@ -65,10 +74,10 @@ html,body {
 	box-shadow:0 10px #1a4022;
 	cursor:pointer;
 }
-#resume:focus{
+.raised-button:focus{
 	outline:0px;
 }
-#resume:active{
+.raised-button:active{
 
 	box-shadow:0 4px #1a4022;
 	transform: translateY(6px);
@@ -107,7 +116,6 @@ html,body {
 	margin-bottom:30px;
 }
 .panel-info{
-	float:right;
 	text-align:left;
 	width:50%;
 	margin:10px 20px 0 0;
@@ -115,9 +123,18 @@ html,body {
 	font-size:3vw;
 	word-break: break-word;
 }
+.panel-body{
+	margin-bottom:70px;
+
+}
 .panel-body img{
-	cursor:pointer;
 	width:33%;
+}
+.clickable{
+	cursor:pointer;
+}
+#mypic{
+	border-radius:50%;
 }
 #education .panel-header{
 	margin-left:30px;
@@ -135,16 +152,33 @@ html,body {
 	position:relative;
 	bottom:0px;
 	background-color:#E7E7E7;
-	height:150px;
+	height:100px;
 	width:100%;
 	text-align:center;
 }
 #footer div{
-	padding-top:50px;
+	padding-top:40px;
 	color:#ABABAB;
-	font-size:30px;
+	font-size:14px;
 
 }
+
+/*  ********* 404 ******** */
+.forohfour-head{
+	color:#246331;
+	font-size:40px;
+}
+#fof-body-container{
+	margin:auto;
+	margin-top:50px;
+	max-width:480px;
+	min-height: 400px;
+}
+.forohfour-body{
+	color:#ababab;
+	font-size:11px;
+}
+
 
 
 @media screen and (min-width:480px) {
@@ -163,7 +197,7 @@ html,body {
 	.intro-body:nth-child(3){
 		font-size:1.5vw;
 	}
-	#resume{
+	.raised-button{
 		font-size:1.5vw;
 		padding:15px;
 	}
@@ -191,12 +225,7 @@ html,body {
 		margin-top:30px;
 		line-height:30px;
 	}
-
-	.panel-body{
-		margin-bottom:60px;
-	}
 	.panel-body img{
-		cursor:pointer;
 		width:30%;
 	}
 	.panel-info{
