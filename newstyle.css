@@ -30,7 +30,6 @@ html,body {
 
 }
 .right-align{
-	float:right;
 	margin-right:20px;
 }
 .center-align{
@@ -117,13 +116,14 @@ html,body {
 }
 .panel-info{
 	text-align:left;
-	width:50%;
-	margin:10px 20px 0 0;
 	color:#ababab;
 	font-size:3vw;
 	word-break: break-word;
 }
 .panel-body{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	margin-bottom:70px;
 
 }
@@ -133,7 +133,8 @@ html,body {
 .clickable{
 	cursor:pointer;
 }
-#mypic{
+.pic-circle{
+	margin-right:20px;
 	border-radius:50%;
 }
 #education .panel-header{
