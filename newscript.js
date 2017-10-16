@@ -1,10 +1,15 @@
 // LINKS
-
 $("#foodforthought").on("click",function(){
-	window.open("http://food-4-thought.herokuapp.com");
+	window.open("https://food-4-thought.herokuapp.com");
+});
+$("#exposure").on("click",function(){
+	window.open("https://picspiration.herokuapp.com");
+});
+$("#yahoo").on("click",function(){
+	window.open("https://www.yahoo.com/");
 });
 $("#jpl").on("click",function(){
-	window.open("http://www.jpl.nasa.gov/");
+	window.open("https://www.jpl.nasa.gov/");
 });
 $("#fb").on("click",function(){
 	window.open("https://www.facebook.com/joshua.komala");
