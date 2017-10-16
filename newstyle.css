@@ -147,7 +147,27 @@ html,body {
 	opacity:0.4;
 	width:100%;
 }
-
+#ucsd {
+	position: relative;
+}
+#ucsd-info {
+	display: flex;
+	color: white;
+	align-items: center;
+	justify-content: center; 
+	flex-direction: column;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.ucsd-header {
+	font-size: 5vw;
+}
+.ucsd-body {
+	font-size: 2.5vw;
+}
 /* 4. ******** FOOTER **********/
 #footer{
 	position:relative;
@@ -245,6 +265,12 @@ html,body {
 		color:#ABABAB;
 		font-size:15px;
 
+	}
+	.ucsd-header {
+		font-size: 3.5vw;
+	}
+	.ucsd-body {
+		font-size: 1.5vw;
 	}
 }
 
